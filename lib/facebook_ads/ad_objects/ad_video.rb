@@ -274,7 +274,7 @@ module FacebookAds
     field :created_time, 'datetime'
     field :custom_labels, { list: 'string' }
     field :description, 'string'
-    field :embed_html, 'object'
+    field :embed_html, 'string'
     field :embeddable, 'bool'
     field :event, 'Event'
     field :expiration, 'object'
@@ -291,7 +291,7 @@ module FacebookAds
     field :live_audience_count, 'int'
     field :live_status, 'string'
     field :music_video_copyright, 'MusicVideoCopyright'
-    field :permalink_url, 'object'
+    field :permalink_url, 'string'
     field :picture, 'string'
     field :place, 'Place'
     field :post_views, 'int'
